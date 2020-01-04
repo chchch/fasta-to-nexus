@@ -53,6 +53,7 @@ BEGIN CHARACTERS;
         output += sequences.get(key);
         output += "\n";
     }
+    output += "END;";
     const outbox = document.querySelector('#output');
     outbox.innerHTML = '';
     outbox.appendChild(document.createTextNode(output));
